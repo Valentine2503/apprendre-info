@@ -1,0 +1,49 @@
+body{
+padding: 0;
+margin: 0;
+background-color: rgb(35, 86, 117);
+color: white;
+font-family: "Poppins", sans-serif;
+}
+
+.bienvenue{
+  max-width: 900px;
+  margin: 5em auto 0;       /* centre le bloc dans la page */
+  padding: 0 16px;          /* petit espace sur les côtés, pour les téléphones */
+  text-align: center;       /* centre le titre, le texte et le bouton */
+  line-height: 2em;
+}
+
+.bienvenue h1{
+  font-size: 4em;
+}
+
+.bienvenue p{
+  font-size: 1.3em;
+  color: white;
+}
+
+.bienvenue .commencer{
+  display: block;
+  width: fit-content;          /* la largeur du texte */
+  margin: 0 auto 3em;          /* auto à gauche et à droite = centré */
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+ background-color: rgb(176, 129, 219);
+border: 1px solid  rgba(79, 112, 101);
+  border-radius: 2em;
+  padding: 10px 15px;
+}
+
+.bienvenue img{
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 3em auto;        /* 3em en haut et en bas, centrée */
+  border-radius: 16px;
+}
+
+
+
